@@ -1,4 +1,4 @@
-FROM iojs:slim
+FROM node:slim
 
 RUN apt-get -qq update && \
     apt-get -y --no-install-recommends install g++ python make git wget && \
